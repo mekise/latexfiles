@@ -12,7 +12,7 @@
 }</code></pre>
 
 <h2>How to use the bibliography styles</h2>
-<p>If you want to use the custom biblio style <code>alphaurl_compact</code>, copy the <code>alphaurl_compact.bst</code> file from this repo into the root folder of your project. Then, recall the style and the bibliography at the end of the latex document as:
+<p>For example, if you want to use the custom biblio style <code>alphaurl_compact</code>, copy the <code>alphaurl_compact.bst</code> file from this repo into the root folder of your project. Then, recall the style and the bibliography at the end of the latex document as:
 <pre><code>\bibliographystyle{alphaurl_compact}
 \bibliography{main}</code></pre>
 If you want a cleaner environment, copy it into a subfolder of your project and add the subfolder path when you recall the bibliographystyle in the document.
