@@ -11,6 +11,13 @@
     \oldbibitem % call old \bibitem
 }</code></pre>
 
+<h2>How to use the bibliography styles</h2>
+<p>If you want to use the custom biblio style <code>xxx</code>, copy the <code>xxx.bst</code> file from this repo into the root folder of your project. Then, recall the style and the bibliography at the end of the latex document as:
+<pre><code>\bibliographystyle{alphaurl_compact}
+\bibliography{main}</code></pre>
+If you want a cleaner environment, copy it into a subfolder of your project and add the subfolder path when you recall the bibliographystyle in the document.
+</p>
+
 <h2>Bibliographystyle examples</h2>
 <p>This is how the different styles look like:</p>
 <ul>
